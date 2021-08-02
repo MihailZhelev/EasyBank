@@ -1,6 +1,6 @@
 let btns = document.querySelectorAll("button");
 let modal = document.querySelector("dialog");
-let images = document.querySelectorAll("img")
+let images = document.querySelectorAll("img");
 
 
 
