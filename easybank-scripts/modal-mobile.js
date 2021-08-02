@@ -7,7 +7,7 @@ let images = document.querySelectorAll("img")
 let buttonsArr = [];
 
 let imagesArr = [];
-console.log(imagesArr)
+
 
 
 btns.forEach(element => {
@@ -21,7 +21,7 @@ images.forEach(element => {
 
 let closeImg = imagesArr[7]
 
-
+let btnMobileNav = buttonsArr[0]
 let btnMockups = buttonsArr[1];
 let btnFooter = buttonsArr[3];
 
@@ -42,11 +42,11 @@ modal.style.display = "none";
 
 function scroll() {
     window.scrollTo(200, 200);
-    show()
+    show();
 }
 
 
-
-btnMockups.addEventListener("click", scroll)
-btnFooter.addEventListener("click", scroll)
+btnMobileNav.addEventListener("click", scroll);
+btnMockups.addEventListener("click", scroll);
+btnFooter.addEventListener("click", scroll);
 closeImg.addEventListener("click", hide)
