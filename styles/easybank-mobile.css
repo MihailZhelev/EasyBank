@@ -299,28 +299,29 @@ footer {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 40%; 
+    top: 2%; 
     text-align: center;
     width: 60%; 
+    padding-top: 2%;
+    padding-right: 3%;
  }
 
  .container__img{
-     width: 70%;
+     width: 47%;
      border-radius: 9px;
      opacity: 0.9;
      filter: brightness(0.5);
  }
  .container__text__p {
-     top: -180%;
      color:rgb(255, 255, 255);
      font-weight: bold;
      font-family: 'Roboto', sans-serif;
-     margin-top: 30%;
+     
     
  }
 
  .container__text__p__btn {
-    margin-top: 15%;
+    margin-top: 20%;
     border-radius: 8px;
     padding: 1%;
     width: 30%;
@@ -340,8 +341,8 @@ dialog {
 }
 
 .container__text__close-btn {
-    color: red;;
+    
     width: 5%;
-    margin-left: 100% ;
-    margin-top: -26%;
+    margin-left: 80% ;
+    margin-top: 0%;
 }
